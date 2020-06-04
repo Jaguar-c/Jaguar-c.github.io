@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megrendeles</title>
+</head>
+<body>
+    
+</body>
+<div class="container">
+    <form>
+        <fieldset>
+            <legend>Személyes adatok</legend>
+        <div>
+            <label for="name">Nev: *</label>
+            <input id="name" name="name" type="text" placeholder="Nev" required>
+        </div>
+        <div>
+            <label for="name" >Email cim: *</label>
+            <input id="email" name="email" type="email"placeholder="Email cim" required>
+        </div>
+        <div>
+            <label for="address">Cim: *</label>
+            <input id="address" name="address" type="text"placeholder="Cim" required>
+        </div>
+        <div>
+            <label for="comment">Megjegyzés:</label>
+            <textarea id="comment" name="comment" rows="5"></textarea>
+        </div>
+        </fieldset>
+
+<span>Extra feltét</span>
+<fieldset>
+<div>
+       <input type="radio" name="extra" id="nothing" value="0"
+       label for="nothing">Nem kérek</label>
+</div>
+<div>
+       <input type="radio" name="extra" id="cheese" value="300"
+       label for="nothing">Feltét1</label>
+</div>
+<div>
+       <input type="radio" name="extra" id="double cheese" value="600"
+       label for="nothing">Feltét2</label>
+</div>
+<div>   
+       <input type="radio" name="extra" id="a" value="1000"
+       label for="nothing">Feltét3</label>
+       
+</div>
+<div>
+       <input type="radio" name="extra" id="b" value="1500"
+       label for="nothing">Feltét4</label>
+</div>
+<div>
+       <input type="radio" name="extra" id="c" value="2000"
+       label for="nothing">Feltét5</label>
+</div>
+<div>
+    <label for="sauce">Szósz</label>
+    <select name="sauce" id="sauce">
+        <option value="0" selected>szósz 1</option>
+        <option value="100">szósz 2</option>
+    </select>
+</div>
+<div>
+    <label for="quantity">Mennyiség</label>
+    <input type="number" name="quantity" id="quantity" min="1" max="10" value> 
+</div>
+</fieldset>
+<div>
+    <input type="button" value="Rendelés leadása">Ár:<span>1200</span> Ft
+</div>
+</html>
